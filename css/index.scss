@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -129,9 +131,6 @@ nav{
                 margin-left: 40em;
             }
         }
-
-        
-
     }
 }
 .about-me{
@@ -253,7 +252,16 @@ nav{
         }
 
         .cards{
+            #i-1{
+                margin-left: 10em;
+            }
+
+            #i-4{
+                margin-left: 10em;
+            }
             .card{
+                margin-top: 2em;
+                margin-right: 1em;
                 a{
                     text-decoration: none;
                     color: grey;
@@ -295,7 +303,14 @@ nav{
                     margin-left: 2px;
                     margin-top: 20px;
                 }
+
+                
             }
+        }
+
+        .arrow{
+            margin-left: 40em;
+            margin-top: 9em;
         }
     }
 }
@@ -307,9 +322,7 @@ nav{
 @media only screen and (max-width: 783px) {
     body{
         transition: ease all .5s;
-
     }
-
     nav{
         .container-nav{
             /*Proporciones NAV*/
@@ -334,6 +347,86 @@ nav{
                 margin-top: 1.7em;
                 margin-left: 15em;
                 height: 2em;
+            }
+        }
+    }
+    .header{
+        .container{
+            .quote{
+                img{
+                    margin-left: 3.5em;
+                }
+
+                p{
+                    margin-left: 1.7em;
+                }
+
+                .btn-container{
+                    text-align: center;
+                    margin-top: 5em;
+    
+    
+                    .btn{
+                        margin-right: 1 em;
+                    }
+                }
+
+                .arrow{
+                    margin-left: 23em;
+                }
+            }
+        }
+    }
+
+    .about-me{
+        .container{
+            .card-about-me{
+                margin-left: 1.4em;
+                width: 45em;
+                .parrafo{
+                    width: 31em;
+                }
+            }
+
+            .spam-github{
+                margin-left: 5em;
+            }
+
+            .arrow{
+                margin-left: 22em;
+            }
+        }
+    }
+
+    .blog{
+        .container{
+            .title{
+                margin-left: 2em;
+            }
+
+            .description{
+                margin-left: 4em;
+                width: 30em;
+            }
+            .cards{
+                
+                #i-1{
+                    margin-left: 5em;
+                }
+
+                #i-3{
+                    margin-left: 5em;
+                }
+
+                #i-4{
+                    position: absolute;
+                    margin-left: 0.3em;
+                }
+            }
+
+            .arrow{
+                margin-left: 21em;
+                margin-top: 3em;
             }
         }
     }
@@ -372,6 +465,8 @@ nav{
             }
         }
     }
+
+
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -405,6 +500,103 @@ nav{
                 margin-top: 1.7em;
                 margin-left: 4em;
                 height: 2em;
+            }
+        }
+    }
+
+    .header{
+        .container{
+            .quote{
+                img{
+                    margin-top: 3em;
+                    margin-left: 2em;
+                }
+
+                p{
+                    margin-left: 1.7em;
+                    width: 3em;
+                }
+
+                .btn-container{
+                    text-align: center;
+                    margin-top: 5em;
+    
+    
+                    .btn{
+                        margin-right: 1em;
+                        margin-bottom: 1em;
+                    }
+                }
+
+                .arrow{
+                    margin-left: 10em;
+                }
+            }
+        }
+    }
+
+    .about-me{
+        .container{
+            .card-about-me{
+                margin-left: 1.4em;
+                width: 20.5em;
+                height: 40em;
+                .title{
+                    margin-left: 0.5em;
+                }
+
+                .parrafo{
+                    margin-left: 1em;
+                    width: 13em;
+                }
+            }
+
+            .spam-github{
+                margin-left: 1.1em;
+                width: 20.5em;
+                img{
+                    margin-left: 1em;
+                }
+            }
+
+            .arrow{
+                margin-left: 10em;
+            }
+        }
+    }
+
+    .blog{
+        .container{
+            margin-top: 4em;
+            .title{
+                margin-left: 1em;
+            }
+
+            .description{
+                margin-left: 2em;
+                width: 14em;
+            }
+
+            .cards{
+                #i-1{
+                    margin-left: 2.2em;
+                }
+
+                #i-2{
+                    margin-left: 2.2em;
+                }
+
+                #i-3{
+                    margin-left: 2.2em;
+                }
+
+                #i-4{
+                    margin-left: 2.2em;
+                }
+            }
+
+            .arrow{
+                margin-left: 10em;
             }
         }
     }

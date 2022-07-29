@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -12,13 +13,12 @@ nav {
   z-index: 99;
   text-align: center;
 }
-
 nav .container-nav {
   /*Posicionamiento*/
   display: inline-block;
   margin-top: 3em;
   /*Propiedades de la fuente*/
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.235em;
   font-weight: 400;
@@ -26,38 +26,32 @@ nav .container-nav {
   /*Diseño NAV*/
   background: #04111E;
   border: 1.5px solid #284058;
-  -webkit-box-shadow: 0px 4px 250px rgba(255, 255, 255, 0.11);
-          box-shadow: 0px 4px 250px rgba(255, 255, 255, 0.11);
+  box-shadow: 0px 4px 250px rgba(255, 255, 255, 0.11);
   border-radius: 12px;
   /*Proporciones NAV*/
   height: 81.74px;
   width: 691.26px;
   /*Animación*/
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
 }
-
 nav .container-nav .logo {
   position: absolute;
   height: 1.7em;
   margin-top: 1.6em;
   margin-left: -20em;
 }
-
 nav .container-nav .logo-text {
   position: absolute;
   margin-top: 2em;
   margin-left: 6em;
 }
-
 nav .container-nav .ico-menu {
   position: absolute;
   margin-top: 1.7em;
   margin-left: 17.8em;
   height: 2em;
 }
-
 nav .container-nav:hover {
   background: rgba(0, 35, 68, 0.61);
 }
@@ -66,29 +60,25 @@ nav .container-nav:hover {
   margin-top: 10em;
   margin-left: 20em;
 }
-
 .header .container .quote p {
   margin-left: 7.5em;
   margin-top: -2.2em;
   width: 15em;
   color: white;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 46.6553px;
   line-height: 100%;
 }
-
 .header .container .quote p span {
   font-style: italic;
   font-weight: 700;
 }
-
 .header .container .quote .btn-container {
   text-align: center;
   margin-top: 5em;
 }
-
 .header .container .quote .btn-container .btn {
   display: inline-block;
   width: 190.76px;
@@ -96,7 +86,7 @@ nav .container-nav:hover {
   background: grey;
   border-radius: 10px;
   color: white;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 19.846px;
@@ -105,22 +95,17 @@ nav .container-nav:hover {
   /* identical to box height, or 20px */
   color: #FFFFFF;
 }
-
 .header .container .quote .btn-container .btn-bfill {
   margin-right: 1em;
   background: #0085FF;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .header .container .quote .btn-container .btn-bfill:hover {
   background: #0057A7;
 }
-
 .header .container .quote .btn-container .btn-kfill {
   background: #001932;
 }
-
 .header .container .quote .arrow {
   margin-top: 5em;
   margin-left: 40em;
@@ -135,9 +120,8 @@ nav .container-nav:hover {
   margin-left: 15em;
   margin-top: 8em;
 }
-
 .about-me .container .card-about-me .title {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 33.2584px;
@@ -146,9 +130,8 @@ nav .container-nav:hover {
   margin-left: 36px;
   margin-top: 41px;
 }
-
 .about-me .container .card-about-me .parrafo {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 20.7248px;
@@ -157,23 +140,19 @@ nav .container-nav:hover {
   text-align: justify;
   color: #BBD5EE;
 }
-
 .about-me .container .card-about-me .p1 {
   margin-top: 12px;
   margin-left: 36px;
   width: 772px;
 }
-
 .about-me .container .card-about-me .p2 {
   margin-top: 25px;
   margin-left: 36px;
   width: 772px;
 }
-
 .about-me .container .card-about-me .p2 a {
   color: #05F7A6;
 }
-
 .about-me .container .spam-github {
   margin-left: 22em;
   margin-top: 3em;
@@ -183,15 +162,13 @@ nav .container-nav:hover {
   border: 2px solid #0085FF;
   border-radius: 12px;
 }
-
 .about-me .container .spam-github img {
   margin-top: 19px;
   margin-left: 22px;
 }
-
 .about-me .container .spam-github p {
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 14.8897px;
@@ -199,19 +176,17 @@ nav .container-nav:hover {
   margin-left: 56px;
   margin-top: -25px;
 }
-
 .about-me .container .spam-github p a {
   color: #0085FF;
   text-decoration: none;
 }
-
 .about-me .container .arrow {
   margin-top: 5em;
   margin-left: 40em;
 }
 
 .blog .container .title {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 41.3104px;
@@ -219,10 +194,9 @@ nav .container-nav:hover {
   margin-left: 5em;
   color: #FFFFFF;
 }
-
 .blog .container .description {
   font-style: normal;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 600;
   font-size: 20.9263px;
   line-height: 100%;
@@ -231,8 +205,15 @@ nav .container-nav:hover {
   margin-top: 1em;
   width: 843px;
 }
-
+.blog .container .cards #i-1 {
+  margin-left: 10em;
+}
+.blog .container .cards #i-4 {
+  margin-left: 10em;
+}
 .blog .container .cards .card {
+  margin-top: 2em;
+  margin-right: 1em;
   display: inline-block;
   width: 286px;
   height: 348px;
@@ -240,16 +221,14 @@ nav .container-nav:hover {
   border: 2px solid #284058;
   border-radius: 18px;
 }
-
 .blog .container .cards .card a {
   text-decoration: none;
   color: grey;
 }
-
 .blog .container .cards .card .subtitle-card {
   margin-left: 21px;
   margin-top: 21px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 14.7365px;
@@ -258,9 +237,8 @@ nav .container-nav:hover {
   letter-spacing: 0.135em;
   color: rgba(255, 255, 255, 0.37);
 }
-
 .blog .container .cards .card .title-card {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 29.0748px;
@@ -270,18 +248,20 @@ nav .container-nav:hover {
   width: 248px;
   margin-top: 13px;
 }
-
 .blog .container .cards .card img {
   margin-left: 2px;
   margin-top: 20px;
+}
+.blog .container .arrow {
+  margin-left: 40em;
+  margin-top: 9em;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 783px) {
   body {
-    -webkit-transition: ease all .5s;
-    transition: ease all .5s;
+    transition: ease all 0.5s;
   }
   nav .container-nav {
     /*Proporciones NAV*/
@@ -305,13 +285,61 @@ nav .container-nav:hover {
     margin-left: 15em;
     height: 2em;
   }
+  .header .container .quote img {
+    margin-left: 3.5em;
+  }
+  .header .container .quote p {
+    margin-left: 1.7em;
+  }
+  .header .container .quote .btn-container {
+    text-align: center;
+    margin-top: 5em;
+  }
+  .header .container .quote .btn-container .btn {
+    margin-right: 1 em;
+  }
+  .header .container .quote .arrow {
+    margin-left: 23em;
+  }
+  .about-me .container .card-about-me {
+    margin-left: 1.4em;
+    width: 45em;
+  }
+  .about-me .container .card-about-me .parrafo {
+    width: 31em;
+  }
+  .about-me .container .spam-github {
+    margin-left: 5em;
+  }
+  .about-me .container .arrow {
+    margin-left: 22em;
+  }
+  .blog .container .title {
+    margin-left: 2em;
+  }
+  .blog .container .description {
+    margin-left: 4em;
+    width: 30em;
+  }
+  .blog .container .cards #i-1 {
+    margin-left: 5em;
+  }
+  .blog .container .cards #i-3 {
+    margin-left: 5em;
+  }
+  .blog .container .cards #i-4 {
+    position: absolute;
+    margin-left: 0.3em;
+  }
+  .blog .container .arrow {
+    margin-left: 21em;
+    margin-top: 3em;
+  }
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 687px) {
   body {
-    -webkit-transition: ease all .5s;
-    transition: ease all .5s;
+    transition: ease all 0.5s;
   }
   nav .container-nav {
     /*Proporciones NAV*/
@@ -336,12 +364,10 @@ nav .container-nav:hover {
     height: 2em;
   }
 }
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
-    -webkit-transition: ease all .5s;
-    transition: ease all .5s;
+    transition: ease all 0.5s;
   }
   nav .container-nav {
     /*Proporciones NAV*/
@@ -366,5 +392,70 @@ nav .container-nav:hover {
     margin-left: 4em;
     height: 2em;
   }
-}
-/*# sourceMappingURL=index.css.map */
+  .header .container .quote img {
+    margin-top: 3em;
+    margin-left: 2em;
+  }
+  .header .container .quote p {
+    margin-left: 1.7em;
+    width: 3em;
+  }
+  .header .container .quote .btn-container {
+    text-align: center;
+    margin-top: 5em;
+  }
+  .header .container .quote .btn-container .btn {
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+  .header .container .quote .arrow {
+    margin-left: 10em;
+  }
+  .about-me .container .card-about-me {
+    margin-left: 1.4em;
+    width: 20.5em;
+    height: 40em;
+  }
+  .about-me .container .card-about-me .title {
+    margin-left: 0.5em;
+  }
+  .about-me .container .card-about-me .parrafo {
+    margin-left: 1em;
+    width: 13em;
+  }
+  .about-me .container .spam-github {
+    margin-left: 1.1em;
+    width: 20.5em;
+  }
+  .about-me .container .spam-github img {
+    margin-left: 1em;
+  }
+  .about-me .container .arrow {
+    margin-left: 10em;
+  }
+  .blog .container {
+    margin-top: 4em;
+  }
+  .blog .container .title {
+    margin-left: 1em;
+  }
+  .blog .container .description {
+    margin-left: 2em;
+    width: 14em;
+  }
+  .blog .container .cards #i-1 {
+    margin-left: 2.2em;
+  }
+  .blog .container .cards #i-2 {
+    margin-left: 2.2em;
+  }
+  .blog .container .cards #i-3 {
+    margin-left: 2.2em;
+  }
+  .blog .container .cards #i-4 {
+    margin-left: 2.2em;
+  }
+  .blog .container .arrow {
+    margin-left: 10em;
+  }
+}/*# sourceMappingURL=index.css.map */

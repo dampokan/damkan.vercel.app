@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   /*background*/
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   /*fondo página*/
   color: white;
   /*Normalizando padding y margin*/
@@ -19,13 +19,11 @@ a {
 .header .header-div {
   margin-top: 3em;
 }
-
 .header .header-div .header-img {
   height: 13em;
   display: block;
   margin: auto;
 }
-
 .header .header-div h2 {
   font-size: 2em;
   margin-top: 0.1em;
@@ -33,7 +31,6 @@ a {
   margin-bottom: 0.1em;
   text-align: center;
 }
-
 .header .header-div p {
   font-size: 0.9em;
   margin-top: 0.1em;
@@ -46,27 +43,21 @@ a {
   list-style-type: none !important;
   padding-left: 0em;
 }
-
 .links .links-div .links-ul .links-ul-li {
-  background: -webkit-gradient(linear, left top, right top, from(#6D14CE), to(#4E6BE3));
   background: linear-gradient(90deg, #6D14CE 0%, #4E6BE3 100%);
-  -webkit-box-shadow: 0px 4px 49px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 4px 49px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 49px rgba(0, 0, 0, 0.12);
   border-radius: 7.68371px;
   margin-bottom: 1em;
   height: 3.3em;
 }
-
 .links .links-div .links-ul .links-ul-li a {
   padding-top: 3em;
 }
-
 .links .links-div .links-ul .links-ul-li a .texto {
   position: relative;
   left: 1.4em;
   font-weight: 700;
 }
-
 .links .links-div .links-ul .links-ul-li a img {
   height: 2em;
   position: relative;
@@ -74,19 +65,16 @@ a {
   left: 0.8em;
   right: 0.8em;
 }
-
 .links .links-div .links-ul .unactive {
-  background: -webkit-gradient(linear, left top, right top, from(#071B2F), to(#021324));
   background: linear-gradient(90deg, #071B2F 0%, #021324 100%);
-  -webkit-box-shadow: 0px 4px 49px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 4px 49px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 49px rgba(0, 0, 0, 0.12);
   border-radius: 7.68371px;
 }
 
 footer .footer-text {
   font-size: 0.9em;
   text-align: center;
-  color: #ffffff8f;
+  color: rgba(255, 255, 255, 0.5607843137);
 }
 
 @media (min-width: 1025px) {
@@ -101,5 +89,4 @@ footer .footer-text {
     padding-left: 5em !important;
     padding-right: 5em !important;
   }
-}
-/*# sourceMappingURL=linkdir.css.map */
+}/*# sourceMappingURL=linkdir.css.map */
