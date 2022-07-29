@@ -314,6 +314,56 @@ nav{
         }
     }
 }
+
+.projects{
+    .container{
+        .title{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 41.3104px;
+            line-height: 100%;
+            color: #ffffff;
+            margin-left: 5em;
+        }
+        .description{
+            margin-top: 1em;
+            margin-left: 9.8em;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20.9263px;
+            line-height: 100%;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .cards{
+            margin-top: 3em;
+            margin-right: 1em;
+            display: block;
+            #ip-1{
+                position: absolute;
+                margin-left: 10em;
+            }
+
+            #ip-2{
+                position: absolute;
+                margin-left: 30em;
+            }
+
+            #ip-3{
+                position: absolute;
+                margin-left: 50em;
+            }
+
+        }
+
+        .arrow{
+            margin-top: 25em;
+            margin-left: 40em;
+        }
+    }
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px){
 }
@@ -600,5 +650,4 @@ nav{
             }
         }
     }
-
 }

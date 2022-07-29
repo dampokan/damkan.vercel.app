@@ -257,6 +257,47 @@ nav .container-nav:hover {
   margin-top: 9em;
 }
 
+.projects .container .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41.3104px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-left: 5em;
+}
+.projects .container .description {
+  margin-top: 1em;
+  margin-left: 9.8em;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.9263px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.projects .container .cards {
+  margin-top: 3em;
+  margin-right: 1em;
+  display: block;
+}
+.projects .container .cards #ip-1 {
+  position: absolute;
+  margin-left: 10em;
+}
+.projects .container .cards #ip-2 {
+  position: absolute;
+  margin-left: 30em;
+}
+.projects .container .cards #ip-3 {
+  position: absolute;
+  margin-left: 50em;
+}
+.projects .container .arrow {
+  margin-top: 25em;
+  margin-left: 40em;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 783px) {
